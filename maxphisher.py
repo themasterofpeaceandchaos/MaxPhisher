@@ -1229,7 +1229,7 @@ def main_menu():
     shell("stty -echoctl") # Skip printing ^C
     if update:
         updater()
-    requirements()
+    #requirements()
     if troubleshoot in ts_commands:
         command = ts_commands[troubleshoot]
         shell(command)
